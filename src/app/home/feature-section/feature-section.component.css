@@ -1,0 +1,93 @@
+
+
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f8fb;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2d405f;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #aabbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .content + .content {
+    margin-top: 100px;
+  }
+  
+  .features .content h3 {
+    font-weight: 600;
+    font-size: 26px;
+  }
+  
+  .features .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .features .content ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: #3b4ef8;
+  }
+  
+  .features .content p:last-child {
+    margin-bottom: 0;
+  }

@@ -1,0 +1,117 @@
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+    background: #2d405f;
+    padding-bottom: 80px;
+  }
+  
+  .services .section-title h2, .services .section-title p {
+    color: #fff;
+  }
+  
+  .services .section-title h2::after {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .services .icon-box {
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.3s;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .services .icon-box:hover {
+    transform: scale(1.08);
+  }
+  
+  .services .icon {
+    margin-bottom: 15px;
+  }
+  
+  .services .icon i {
+    font-size: 32px;
+    line-height: 1;
+    color: #2d405f;
+    background: #eff2f8;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 0.3s;
+  }
+  
+  .services .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .services .title a {
+    color: #2d405f;
+    transition: 0.3s;
+  }
+  
+  .services .title a:hover {
+    color: #4e6fa4;
+  }
+  
+  .services .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+
+  
+  /*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f6f8fb;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #2d405f;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #aabbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+  
